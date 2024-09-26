@@ -1,4 +1,5 @@
-import { Edition, IncludeLightbulb, MateTypeWithoutId, Type } from '../types'
+import { MateTypeWithoutId } from '../types'
+import { IncludeLightbulb, MateEdition, TypeofMate } from '../enums'
 
 const validateString = (string: string): boolean => {
   return typeof string === 'string'
@@ -8,16 +9,16 @@ const validateString = (string: string): boolean => {
   return Boolean(Date.parse(date))
 } */
 
-const isLightBulb = (string: string): boolean => {
-  return ['yes', 'no'].includes(string)
+const isLightBulb = (string: any): boolean => {
+  return Object.values(IncludeLightbulb).includes(string)
 }
 
-const isEdition = (string: string): boolean => {
-  return ['premium', 'personalized', 'traditional'].includes(string)
+const isEdition = (string: any): boolean => {
+  return Object.values(MateEdition).includes(string)
 }
 
-const isType = (string: string): boolean => {
-  return ['calabaza', 'acero', 'madera'].includes(string)
+const isType = (string: any): boolean => {
+  return Object.values(TypeofMate).includes(string)
 }
 
 const isAcloudinaryImg = (string: string): boolean => {
@@ -45,7 +46,7 @@ const parseLightbulb = (includeLightbulb: any): IncludeLightbulb => {
   return includeLightbulb
 }
 
-const parseEdition = (edition: any): Edition => {
+const parseEdition = (edition: any): MateEdition => {
   if (!validateString(edition) || !isEdition(edition)) {
     throw new Error('Incorrect edition')
   }
@@ -53,7 +54,7 @@ const parseEdition = (edition: any): Edition => {
   return edition
 }
 
-const parseType = (mateType: any): Type => {
+const parseType = (mateType: any): TypeofMate => {
   if (!validateString(mateType) || !isType(mateType)) {
     throw new Error('Type must be calabaza, acero or madera')
   }

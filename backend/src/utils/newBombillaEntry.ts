@@ -1,11 +1,12 @@
-import { LightBulbWithoutId, MaterialLightbulb } from '../types'
+import { LightBulbWithoutId } from '../types'
+import { MaterialLightbulb } from '../enums'
 
 const validateString = (string: any): boolean => {
   return typeof string === 'string'
 }
 
 const materialType = (material: any): boolean => {
-  return ['acero', 'alpaca', 'bronce', 'plata'].includes(material)
+  return Object.values(MaterialLightbulb).includes(material)
 }
 
 const validateLength = (length: any): boolean => {
@@ -44,7 +45,7 @@ const isImage = (img: any): string => {
   return img
 }
 
-export function newBombillaEntry (object: any): LightBulbWithoutId {
+export const newBombillaEntry = (object: any): LightBulbWithoutId => {
   const lightBulb = {
     productName: isText(object.productName),
     material: isMaterial(object.material),

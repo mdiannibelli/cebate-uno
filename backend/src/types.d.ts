@@ -1,6 +1,4 @@
-export type Type = 'madera' | 'acero' | 'calabaza'
-export type Edition = 'personalized' | 'premium' | 'traditional'
-export type IncludeLightbulb = 'yes' | 'no'
+import { IncludeLightbulb, MateEdition, MaterialLightbulb, TypeofMate } from './enums'
 
 export interface MateType {
   id: number
@@ -10,13 +8,11 @@ export interface MateType {
   description: string
   include_lightbulb: IncludeLightbulb
   img: string
-  type: Type
-  edition: Edition
+  type: TypeofMate
+  edition: MateEdition
 }
 
 export type MateTypeWithoutId = Omit<MateType, 'id'>
-
-export type MaterialLightbulb = 'acero' | 'alpaca' | 'bronce' | 'plata'
 
 export interface LightbulbType {
   id: number
