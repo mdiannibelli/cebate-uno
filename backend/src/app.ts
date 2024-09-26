@@ -1,6 +1,7 @@
 import express from 'express'
 
 import matesRoutes from './routes/mates'
+import lightbulbRoutes from './routes/bombillas'
 
 const app = express()
 
@@ -12,6 +13,7 @@ app.get('/', (_, res) => {
 })
 
 app.use('/api/mates', matesRoutes)
+app.use('/api/bombillas', lightbulbRoutes)
 
 app.listen($PORT, () => {
   console.log(`Server running on port ${$PORT}`)

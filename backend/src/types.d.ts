@@ -15,3 +15,28 @@ export interface MateType {
 }
 
 export type MateTypeWithoutId = Omit<MateType, 'id'>
+
+export type MaterialLightbulb = 'acero' | 'alpaca' | 'bronce' | 'plata'
+
+export interface LightbulbType {
+  id: number
+  productName: string
+  material: MaterialLightbulb
+  length: string
+  price: string
+  description: string
+  img: string
+}
+
+export type LightBulbWithoutId = Omit<LightbulbType, 'id'>
+
+export interface TermoType {
+  id: number
+  productName: string
+  capacity: string
+  description: string
+  material: string
+  color: string
+  price: string
+  img: string
+}
