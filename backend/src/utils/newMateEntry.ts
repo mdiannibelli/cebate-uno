@@ -73,7 +73,7 @@ const parseImg = (img: any): string => {
 export const toNewMateEntry = (object: any): MateTypeWithoutId => {
   const newEntry: MateTypeWithoutId = {
     productName: parseText(object.productName),
-    description: parseText(object.productName),
+    description: parseText(object.description),
     color: parseText(object.color),
     price: parseText(object.price),
     include_lightbulb: parseLightbulb(object.include_lightbulb),

@@ -1,10 +1,12 @@
 import express from 'express'
+import cors from 'cors'
 
 import matesRoutes from './routes/mates'
 import lightbulbRoutes from './routes/bombillas'
 
 const app = express()
 
+app.use(cors())
 app.use(express.json()) // middleware => req.body a json
 const $PORT = 3000
 
