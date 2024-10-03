@@ -1,3 +1,4 @@
+import { MdAddShoppingCart } from "react-icons/md"
 import { MatesType } from "../../types"
 
 interface Props {
@@ -14,7 +15,10 @@ const MatesGrid = ({ mates }: Props) => {
               <img src={mate.img} alt={mate.productName} className="w-[330px] h-[300px]" />
             </figure>
             <h3 className="font-light text-center uppercase text-xl mt-1">{mate.productName}</h3>
-            <span className="font-regular text-center uppercase text-lg mt-2">${mate.price}</span>
+            <aside className="flex gap-x-4 items-center justify-center mt-2">
+              <span className="font-regular text-center uppercase text-lg">${mate.price}</span>
+              <button><MdAddShoppingCart className="size-4" /></button>
+            </aside>
           </div>
         ))
       }
