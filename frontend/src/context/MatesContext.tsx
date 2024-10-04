@@ -6,7 +6,7 @@ interface MatesContextType {
     mates: MatesType[]
 }
 
-const MatesContext = createContext<MatesContextType | undefined>(undefined);
+export const MatesContext = createContext<MatesContextType | undefined>(undefined);
 
 export const MatesProvider = ({children}: {children: React.ReactNode}) => {
     const [mates, setMates] = useState<MatesType[]>([]);
@@ -17,14 +17,14 @@ export const MatesProvider = ({children}: {children: React.ReactNode}) => {
             const mappedMates: MatesType[] = matesData.map((mate) => {
                 return {
                     id: mate.id,
-                    color: mate.color,
-                    description: mate.description,
-                    edition: mate.edition,
-                    img: mate.img, 
-                    include_lightbulb: mate.include_lightbulb, 
-                    price: mate.price, 
                     productName: mate.productName,
-                    type: mate.type
+                    color: mate.color,
+                    price: mate.price,
+                    description: mate.description,
+                    include_lightbulb: mate.include_lightbulb,
+                    img: mate.img,
+                    type: mate.type,
+                    edition: mate.edition
                 }
             })
 

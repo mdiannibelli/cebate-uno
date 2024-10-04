@@ -1,11 +1,8 @@
 import { MdAddShoppingCart } from "react-icons/md"
-import { MatesType } from "../../types"
+import { useMates } from "../../hooks/useMates"
 
-interface Props {
-  mates: MatesType[]
-}
-
-const MatesGrid = ({ mates }: Props) => {
+const MatesGrid = () => {
+  const { mates } = useMates();
   return (
     <div className="grid grid-cols-3 max-w-[1296px] mx-auto mt-8">
       {
