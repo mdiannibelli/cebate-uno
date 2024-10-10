@@ -1,13 +1,15 @@
 export enum TypeofMate {
   Madera = 'madera',
   Acero = 'acero',
-  Calabaza = 'calabaza'
+  Calabaza = 'calabaza',
+  All = 'all'
 }
 
 export enum MateEdition {
   Personalized = 'personalized',
   Premium = 'premium',
-  Traditional = 'traditional'
+  Traditional = 'traditional',
+  All = 'all'
 }
 
 export enum IncludeLightbulb {
@@ -19,5 +21,6 @@ export enum MaterialLightbulb {
   Acero = 'acero',
   Alpaca = 'alpaca',
   Bronce = 'bronce',
-  Plata = 'plata'
+  Plata = 'plata',
+  All = 'all'
 }

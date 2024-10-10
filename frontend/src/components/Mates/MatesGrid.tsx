@@ -1,13 +1,16 @@
 import { MdAddShoppingCart } from "react-icons/md"
-import { useMates } from "../../hooks/useMates"
+//import { useMates } from "../../hooks/useMates"
+import { useFilters } from "../../hooks/useFilters";
 
 const MatesGrid = () => {
-  const { mates } = useMates();
+  //const { mates } = useMates();
+  const { filteredMates } = useFilters()
+  console.log(filteredMates)
   return (
     <div className="grid grid-cols-3 max-w-[1296px] mx-auto mt-8">
       {
-        mates.map((mate) => (
-          <div className="flex flex-col mt-2 justify-center items-center my-2" >
+        filteredMates.map((mate) => (
+          <div key={mate.id} className="flex flex-col mt-2 justify-center items-center my-2" >
             <figure>
               <img src={mate.img} alt={mate.productName} className="w-[330px] h-[300px]" />
             </figure>
