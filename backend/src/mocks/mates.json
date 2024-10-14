@@ -2,13 +2,13 @@
   {
     "id": 1,
     "productName": "Mate Tradicional",
-    "color": "Marrón",
+    "color": "Marron",
     "price": "20000",
     "description": "Un mate clásico hecho a mano a partir de calabaza natural, con un borde de aluminio que le da un acabado resistente. Este mate se ha curado cuidadosamente para un mejor sabor y durabilidad a largo plazo. Perfecto para los amantes del mate que buscan un estilo tradicional.",
     "include_lightbulb": "yes",
     "img": "https://res.cloudinary.com/dvvtskcux/image/upload/v1727918590/cebate-uno/01.png",
-    "type": "calabaza",
-    "edition": "traditional"
+    "type": "Calabaza",
+    "edition": "Tradicional"
   },
   {
     "id": 2,
@@ -18,8 +18,8 @@
     "description": "El mate Imperial combina elegancia y funcionalidad. Fabricado en acero inoxidable, es altamente resistente a la oxidación y fácil de limpiar. Su base está recubierta de cuero genuino, lo que le aporta un toque de distinción y lo hace ideal para ocasiones especiales. Incluye bombilla de alta calidad.",
     "include_lightbulb": "yes",
     "img": "https://res.cloudinary.com/dvvtskcux/image/upload/v1727918590/cebate-uno/02.png",
-    "type": "acero",
-    "edition": "premium"
+    "type": "Acero",
+    "edition": "Premium"
   },
   {
     "id": 3,
@@ -29,8 +29,8 @@
     "description": "Este mate de vidrio templado ofrece una visión clara del interior, lo que permite ver cómo la yerba se hidrata y se mantiene en su punto justo. El soporte de acero proporciona estabilidad, mientras que el material de vidrio asegura que no absorba sabores o aromas no deseados.",
     "include_lightbulb": "no",
     "img": "https://res.cloudinary.com/dvvtskcux/image/upload/v1727918590/cebate-uno/03.png",
-    "type": "acero",
-    "edition": "traditional"
+    "type": "Acero",
+    "edition": "Tradicional"
   },
   {
     "id": 4,
@@ -40,8 +40,8 @@
     "description": "De gran tamaño, el mate Camionero es un clásico entre los conductores de larga distancia. Fabricado en madera y recubierto de cuero, este mate asegura una excelente retención del calor y un sabor único. Su boca ancha facilita el cebado prolongado y su diseño robusto lo hace ideal para llevar a cualquier lado.",
     "include_lightbulb": "yes",
     "img": "https://res.cloudinary.com/dvvtskcux/image/upload/v1727918590/cebate-uno/04.png",
-    "type": "madera",
-    "edition": "personalized"
+    "type": "Madera",
+    "edition": "Personalizado"
   },
   {
     "id": 5,
@@ -51,19 +51,19 @@
     "description": "El mate Torpedo se destaca por su forma ergonómica y su diseño en cerámica pintada a mano. Este mate es perfecto para quienes buscan algo diferente y moderno. Su superficie suave facilita la limpieza, mientras que su boca angosta retiene la yerba de forma eficiente durante todo el día.",
     "include_lightbulb": "no",
     "img": "https://res.cloudinary.com/dvvtskcux/image/upload/v1727918590/cebate-uno/05.png",
-    "type": "madera",
-    "edition": "personalized"
+    "type": "Madera",
+    "edition": "Personalizado"
   },
   {
     "id": 6,
     "productName": "Mate de Cuero Personalizado",
-    "color": "Marrón oscuro",
+    "color": "Marron",
     "price": "70000",
     "description": "Este mate de cuero artesanal es completamente personalizable con grabados a mano. Ideal para regalos o coleccionistas, ofrece una mezcla de estilo clásico con un toque personalizado. Su interior de acero inoxidable garantiza durabilidad y un fácil mantenimiento.",
     "include_lightbulb": "yes",
     "img": "https://res.cloudinary.com/dvvtskcux/image/upload/v1727918590/cebate-uno/06.png",
-    "type": "acero",
-    "edition": "personalized"
+    "type": "Acero",
+    "edition": "Personalizado"
   },
   {
     "id": 7,
@@ -73,8 +73,8 @@
     "description": "Este mate está hecho de materiales 100% reciclables, pensado para aquellos que buscan un estilo de vida más sostenible. Su estructura en bambú tratado es ligera pero resistente, y garantiza una experiencia de mate ecológica sin comprometer la calidad del sabor.",
     "include_lightbulb": "yes",
     "img": "https://res.cloudinary.com/dvvtskcux/image/upload/v1727918590/cebate-uno/07.png",
-    "type": "madera",
-    "edition": "traditional"
+    "type": "Madera",
+    "edition": "Tradicional"
   },
   {
     "id": 8,
@@ -84,19 +84,19 @@
     "description": "Este exclusivo mate premium está hecho de acero inoxidable de la más alta calidad y recubierto con detalles en plata pura. Diseñado para los que buscan lujo y sofisticación, su diseño clásico combina elegancia y funcionalidad. Incluye una bombilla bañada en plata.",
     "include_lightbulb": "yes",
     "img": "https://res.cloudinary.com/dvvtskcux/image/upload/v1727918590/cebate-uno/08.png",
-    "type": "acero",
-    "edition": "premium"
+    "type": "Acero",
+    "edition": "Premium"
   },
   {
     "id": 9,
     "productName": "Mate de Calabaza con Detalles en Cuero",
-    "color": "Marrón claro",
+    "color": "Marron",
     "price": "25000",
     "description": "Hecho a mano a partir de una calabaza seleccionada, este mate está decorado con finos detalles de cuero que lo hacen único. Su estilo artesanal le da un toque rústico, mientras que su boca ancha permite una infusión perfecta de yerba. No incluye bombilla.",
     "include_lightbulb": "no",
     "img": "https://res.cloudinary.com/dvvtskcux/image/upload/v1727918590/cebate-uno/09.png",
-    "type": "calabaza",
-    "edition": "traditional"
+    "type": "Calabaza",
+    "edition": "Tradicional"
   },
   {
     "id": 10,
@@ -106,40 +106,40 @@
     "description": "Este mate de madera ha sido grabado con motivos artísticos, proporcionando una pieza única y decorativa. La madera ha sido tratada para preservar su durabilidad y mejorar su resistencia a la humedad. Ideal para quienes aprecian el trabajo artesanal y los productos naturales.",
     "include_lightbulb": "yes",
     "img": "",
-    "type": "madera",
-    "edition": "personalized"
+    "type": "Madera",
+    "edition": "Personalizado"
   },
   {
     "id": 11,
     "productName": "Mate de Acero Inoxidable y Cuero Premium",
-    "color": "Negro y Plata",
+    "color": "Negro",
     "price": "60000",
     "description": "Este mate premium está fabricado en acero inoxidable de alta calidad y recubierto en cuero negro, lo que le proporciona una excelente retención de calor y un diseño moderno y elegante. Perfecto para quienes buscan calidad y durabilidad. Incluye bombilla de acero.",
     "include_lightbulb": "yes",
     "img": "",
-    "type": "acero",
-    "edition": "premium"
+    "type": "Acero",
+    "edition": "Premium"
   },
   {
     "id": 12,
     "productName": "Mate de Calabaza con Detalles en Alpaca",
-    "color": "Marrón claro",
+    "color": "Marron",
     "price": "45000",
     "description": "Este mate de calabaza ha sido embellecido con detalles en alpaca, lo que le otorga un aspecto tradicional y elegante. Ideal para quienes aprecian las piezas clásicas con un toque de distinción. La calabaza ha sido tratada para garantizar la máxima durabilidad.",
     "include_lightbulb": "yes",
     "img": "",
-    "type": "calabaza",
-    "edition": "premium"
+    "type": "Calabaza",
+    "edition": "Premium"
   },
   {
     "id": 13,
     "productName": "Mate de Cerámica con Soporte",
-    "color": "Blanco",
+    "color": "Natural",
     "price": "20000",
     "description": "Un mate moderno y minimalista hecho de cerámica blanca, perfecto para quienes buscan un diseño elegante y sencillo. El soporte de acero inoxidable asegura estabilidad, y la superficie de cerámica es fácil de limpiar. Ideal para el uso diario.",
     "include_lightbulb": "no",
     "img": "",
-    "type": "acero",
-    "edition": "traditional"
+    "type": "Acero",
+    "edition": "Tradicional"
   }
 ]
