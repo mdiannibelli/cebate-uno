@@ -2,7 +2,7 @@ import { createContext, useEffect, useMemo, useState } from 'react'
 import { useMates } from '../hooks/useMates';
 import { MatesType } from '../types';
 
-type Filters = {
+export type Filters = {
     query: string,
     color: string,
     edition: string,
@@ -85,9 +85,9 @@ export const FiltersProvider = ({ children }: { children: React.ReactNode }) => 
 
     const filteredMates = useMemo(() => {
         return mates.filter((mate) =>
-            (mate.color !== 'all' || mate.color === filters.color) &&
-            (mate.edition !== 'all' || mate.edition === filters.edition) &&
-            (mate.type !== 'all' || mate.type === filters.material) &&
+            (filters.color === 'all' || mate.color === filters.color) &&
+            (filters.edition === 'all' || mate.edition === filters.edition) &&
+            (filters.material === 'all' || mate.type === filters.material) &&
             (Number(mate.price) <= filters.maxPrice && Number(mate.price) >= filters.minPrice) &&
             (mate.productName.toLowerCase().match(delayedQuery.toLowerCase()))
         )
