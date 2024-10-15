@@ -1,20 +1,28 @@
-import { AllFilters } from "./components/Filters/AllFilters"
-import MatesGrid from "./components/Mates/MatesGrid"
+import { useState } from "react"
 import Header from "./components/UI/Header"
 import { FiltersProvider } from "./context/FiltersContext"
 import { MatesProvider } from "./context/MatesContext"
+import { SelectorType } from "./types"
+import { MatesSection } from "./sections/MatesSection"
+
+
 
 function App() {
+  const [selector, setSelector] = useState<SelectorType>("mates");
+
+  function handleSelector(type: SelectorType) {
+    setSelector(type)
+  }
   return (
     <MatesProvider>
       <FiltersProvider>
         <main>
-          <Header />
-          <section className="flex flex-col items-center my-12">
-            <h2 className='font-light text-2xl uppercase text-neutral-500'>Todos nuestros productos</h2>
-            <AllFilters />
-            <MatesGrid />
-          </section>
+          <Header selector={selector} handleSelector={handleSelector} />
+          {
+            selector === 'mates' ?
+              <MatesSection />
+              : ""
+          }
         </main>
       </FiltersProvider>
     </MatesProvider>

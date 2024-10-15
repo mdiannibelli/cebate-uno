@@ -32,7 +32,7 @@ export function DropdownEditionFilter({ title, editions, setFilters }: Props) {
     return (
         <DropdownMenu>
             <DropdownMenuTrigger asChild>
-                <Button variant="outline" className="uppercase text-md">{title}</Button>
+                <Button variant="outline" className="uppercase text-xs md:text-md">{title}</Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent className="w-56">
                 <DropdownMenuLabel>{title.toUpperCase()}</DropdownMenuLabel>

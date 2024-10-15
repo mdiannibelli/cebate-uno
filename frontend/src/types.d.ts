@@ -11,3 +11,5 @@ export interface MatesType {
   type: TypeofMate
   edition: MateEdition
 }
+
+export type SelectorType = 'mates' | 'bombillas'
