@@ -5,10 +5,11 @@ export const useFilters = () => {
     const filtersContext = useContext(FiltersContext);
     if (!filtersContext) throw new Error("Error at Filters Context");
 
-    const { filteredMates, filters, setFilters } = filtersContext;
+    const { filteredMates, filters, setFilters, filteredBombillas } = filtersContext;
     return {
         filteredMates,
         filters,
-        setFilters
+        setFilters,
+        filteredBombillas
     }
 }
