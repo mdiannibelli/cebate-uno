@@ -5,7 +5,6 @@ import { useFilters } from "../../hooks/useFilters";
 const MatesGrid = () => {
   //const { mates } = useMates();
   const { filteredMates } = useFilters()
-  console.log(filteredMates)
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-[1296px] mx-auto mt-8">
       {
@@ -16,7 +15,7 @@ const MatesGrid = () => {
             </figure>
             <h3 className="font-light text-center uppercase text-xl mt-1">{mate.productName}</h3>
             <aside className="flex gap-x-4 items-center justify-center mt-2">
-              <span className="font-regular text-center uppercase text-lg">${mate.price}</span>
+              <span className="font-regular text-center uppercase text-lg">${Number(mate.price).toLocaleString()}</span>
               <button><MdAddShoppingCart className="size-4" /></button>
             </aside>
           </div>

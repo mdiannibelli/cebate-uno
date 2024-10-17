@@ -1,7 +1,5 @@
+import { API_URL, MATES_ENDPOINT } from "@/config/api.config";
 import { MatesType } from "../types";
-
-const API_URL = import.meta.env.VITE_SERVER_API ?? 'http://localhost:3000'
-const MATES_ENDPOINT = `${API_URL}/api/mates`
 
 export async function getMates(): Promise<MatesType[]> {
   try {
