@@ -1,5 +1,5 @@
 import { SelectorType } from "@/types";
-import { FaCartShopping } from "react-icons/fa6"
+import { CartBtn } from "../CartStore/CartBtn";
 
 interface Props {
   selector: "mates" | "bombillas"
@@ -14,7 +14,7 @@ const Header = ({ selector, handleSelector }: Props) => {
           <h1 className='text-6xl uppercase font-semibold'>Cebate</h1>
           <h2 className='text-4xl text-end uppercase font-regular'>Uno</h2>
         </div>
-        <button><FaCartShopping className="size-8 mr-2" /></button>
+        <CartBtn />
       </div>
       {/* Filters */}
       <div className='flex gap-x-6 mt-8'>

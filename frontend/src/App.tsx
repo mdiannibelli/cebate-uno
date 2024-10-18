@@ -6,6 +6,8 @@ import { SelectorType } from "./types"
 import { MatesSection } from "./sections/MatesSection"
 import { BombillasSection } from "./sections/BombillasSection"
 import BombillasProvider from "./context/BombillasContext"
+import { SideMenu } from "./components/CartStore/SideMenu"
+import CartProvider from "./context/CartContext"
 
 
 
@@ -16,20 +18,23 @@ function App() {
     setSelector(type)
   }
   return (
-    <MatesProvider>
-      <BombillasProvider>
-        <FiltersProvider>
-          <main>
-            <Header selector={selector} handleSelector={handleSelector} />
-            {
-              selector === 'mates' ?
-                <MatesSection />
-                : <BombillasSection />
-            }
-          </main>
-        </FiltersProvider>
-      </BombillasProvider>
-    </MatesProvider>
+    <CartProvider>
+      <MatesProvider>
+        <BombillasProvider>
+          <FiltersProvider>
+            <SideMenu />
+            <main>
+              <Header selector={selector} handleSelector={handleSelector} />
+              {
+                selector === 'mates' ?
+                  <MatesSection />
+                  : <BombillasSection />
+              }
+            </main>
+          </FiltersProvider>
+        </BombillasProvider>
+      </MatesProvider>
+    </CartProvider>
   )
 }
 
