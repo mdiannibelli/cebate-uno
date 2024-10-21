@@ -8,6 +8,8 @@ import { BombillasSection } from "./sections/BombillasSection"
 import BombillasProvider from "./context/BombillasContext"
 import { SideMenu } from "./components/CartStore/SideMenu"
 import CartProvider from "./context/CartContext"
+import { ToastContainer } from "react-toastify"
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
@@ -30,6 +32,13 @@ function App() {
                   <MatesSection />
                   : <BombillasSection />
               }
+              <ToastContainer
+                position="bottom-right"
+                theme="colored"
+                autoClose={1500}
+                closeOnClick
+                className={'text-xs'}
+              />
             </main>
           </FiltersProvider>
         </BombillasProvider>
