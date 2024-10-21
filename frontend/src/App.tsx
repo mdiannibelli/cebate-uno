@@ -10,6 +10,7 @@ import { SideMenu } from "./components/CartStore/SideMenu"
 import CartProvider from "./context/CartContext"
 import { ToastContainer } from "react-toastify"
 import 'react-toastify/dist/ReactToastify.css';
+import { Footer } from "./components/UI/Footer"
 
 
 
@@ -39,6 +40,7 @@ function App() {
                 closeOnClick
                 className={'text-xs'}
               />
+              <Footer />
             </main>
           </FiltersProvider>
         </BombillasProvider>
