@@ -10,6 +10,7 @@ export interface MatesType {
   img: string
   type: TypeofMate
   edition: MateEdition
+  quantity?: number
 }
 
 export type SelectorType = 'mates' | 'bombillas'
@@ -22,4 +23,5 @@ export interface BombillaType {
   material: MaterialLightbulb
   price: string
   productName: string
+  quantity?: number
 }
