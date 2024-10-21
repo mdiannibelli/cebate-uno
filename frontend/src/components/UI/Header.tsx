@@ -10,7 +10,7 @@ const Header = ({ selector, handleSelector }: Props) => {
   return (
     <header className="flex flex-col items-center m-4 md:m-8">
       <div className="flex w-full justify-center">
-        <div className="flex-1 flex gap-x-4 justify-center w-full">
+        <a href="/" className="flex-1 flex gap-x-4 justify-center w-full">
           <div>
             <h1 className='text-4xl md:text-6xl uppercase font-semibold'>Cebate</h1>
             <h2 className='text-2xl md:text-4xl text-end uppercase font-regular max-w-[204px] w-full'>Uno</h2>
@@ -18,7 +18,7 @@ const Header = ({ selector, handleSelector }: Props) => {
           <div>
             <img src="/public/logo.png" alt="Cebate Uno Logo" className="w-8 md:w-12" />
           </div>
-        </div>
+        </a>
         <CartBtn />
       </div>
       {/* Filters */}

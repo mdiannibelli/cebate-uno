@@ -27,7 +27,7 @@ const MatesGrid = () => {
             <h3 className="font-light text-center uppercase text-lg max-w-[280px] mt-4">{mate.productName}</h3>
             <aside className="flex gap-x-4 items-center justify-center mt-2">
               <span className="font-regular text-center uppercase text-lg">${Number(mate.price).toLocaleString()}</span>
-              <button><MdAddShoppingCart className="size-4" /></button>
+              <button className="bg-neutral-800 py-1 px-2 hover:bg-neutral-700 duration-300 rounded-md"><MdAddShoppingCart className="size-4 text-white" /></button>
             </aside>
           </div>
         ))

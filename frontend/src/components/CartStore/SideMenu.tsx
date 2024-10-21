@@ -1,6 +1,7 @@
 import useCartContext from '@/hooks/useCartContext';
 import cartMenuStore from '@/store/cartMenuStore';
 import clsx from 'clsx';
+import { IoIosCloseCircleOutline } from 'react-icons/io';
 
 export const SideMenu = () => {
     const cartMenu = cartMenuStore(state => state.cartMenu);
@@ -35,7 +36,7 @@ export const SideMenu = () => {
                     }
                 )
             }>
-                <button onClick={closeCartMenuStore} className='text-3xl text-neutral-800 flex justify-end w-full'>X</button>
+                <button onClick={closeCartMenuStore} className='text-3xl text-neutral-800 flex justify-end w-full'><IoIosCloseCircleOutline /></button>
 
                 <div className='h-full'>
                     {
