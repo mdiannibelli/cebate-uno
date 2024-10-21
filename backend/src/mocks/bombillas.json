@@ -1,101 +1,101 @@
 [
-        {
-          "id": 1,
-          "productName": "Bombilla Acero Inoxidable Clásica",
-          "material": "acero",
-          "length": "16 cm",
-          "price": "12000",
-          "description": "Bombilla de acero inoxidable resistente, ideal para un mate clásico. Fácil de limpiar y duradera.",
-          "img": ""
-        },
-        {
-          "id": 2,
-          "productName": "Bombilla Alpaca con Detalle de Oro",
-          "material": "alpaca",
-          "length": "18 cm",
-          "price": "35000",
-          "description": "Bombilla artesanal de alpaca con detalles de oro, perfecta para quienes buscan elegancia y durabilidad en su mate.",
-          "img": ""
-        },
-        {
-          "id": 3,
-          "productName": "Bombilla Bronce Niquelado con Filtro Desmontable",
-          "material": "bronce",
-          "length": "17 cm",
-          "price": "18000",
-          "description": "Bombilla de bronce niquelado con filtro desmontable para facilitar la limpieza. Ideal para disfrutar de un mate sin residuos.",
-          "img": ""
-        },
-        {
-          "id": 4,
-          "productName": "Bombilla de Plata con Grabados",
-          "material": "plata",
-          "length": "15 cm",
-          "price": "32000",
-          "description": "Bombilla de plata finamente grabada a mano, una pieza única que combina arte y funcionalidad en cada sorbo.",
-          "img": ""
-        },
-        {
-          "id": 5,
-          "productName": "Bombilla de Acero y Bronce",
-          "material": "acero",
-          "length": "19 cm",
-          "price": "24000",
-          "description": "Bombilla de acero inoxidable con detalles en bronce, ideal para mates diarios y de alta resistencia.",
-          "img": ""
-        },
-        {
-          "id": 6,
-          "productName": "Bombilla Alpaca Maciza con Pala Ancha",
-          "material": "alpaca",
-          "length": "16.5 cm",
-          "price": "28000",
-          "description": "Bombilla de alpaca maciza con pala ancha, perfecta para cebar mates de yerba gruesa sin que se tape.",
-          "img": ""
-        },
-        {
-          "id": 7,
-          "productName": "Bombilla de Acero con Boca Dorada",
-          "material": "acero",
-          "length": "17.5 cm",
-          "price": "22000",
-          "description": "Elegante bombilla de acero inoxidable con una boca dorada, diseño sofisticado y funcional para un mate de alta calidad.",
-          "img": ""
-        },
-        {
-          "id": 8,
-          "productName": "Bombilla de Bronce Torneada",
-          "material": "bronce",
-          "length": "18 cm",
-          "price": "20000",
-          "description": "Bombilla de bronce torneada a mano, resistente y con un diseño tradicional que asegura durabilidad y estilo.",
-          "img": ""
-        },
-        {
-          "id": 9,
-          "productName": "Bombilla de Plata y Oro Grabada",
-          "material": "plata",
-          "length": "15.5 cm",
-          "price": "34000",
-          "description": "Exquisita bombilla de plata con detalles en oro grabada a mano, una opción de lujo para un mate especial.",
-          "img": ""
-        },
-        {
-          "id": 10,
-          "productName": "Bombilla de Alpaca con Anillo de Plata",
-          "material": "alpaca",
-          "length": "16 cm",
-          "price": "26000",
-          "description": "Bombilla de alpaca con un elegante anillo de plata en el centro. Combina resistencia y estética en un solo producto.",
-          "img": ""
-        },
-        {
-          "id": 11,
-          "productName": "Bombilla de Acero con Filtro Fino",
-          "material": "acero",
-          "length": "17 cm",
-          "price": "15000",
-          "description": "Bombilla de acero inoxidable con un filtro fino que evita que pasen restos de yerba al sorber. Ideal para mates suaves.",
-          "img": ""
-        }
+  {
+    "id": 14,
+    "productName": "Bombilla Acero Inoxidable Clásica",
+    "material": "acero",
+    "length": "16 cm",
+    "price": "12000",
+    "description": "Bombilla de acero inoxidable resistente, ideal para un mate clásico. Fácil de limpiar y duradera.",
+    "img": "https://res.cloudinary.com/dvvtskcux/image/upload/v1729204845/cebate-uno/bombillas/01.jpg"
+  },
+  {
+    "id": 15,
+    "productName": "Bombilla Alpaca con Detalle de Oro",
+    "material": "alpaca",
+    "length": "18 cm",
+    "price": "35000",
+    "description": "Bombilla artesanal de alpaca con detalles de oro, perfecta para quienes buscan elegancia y durabilidad en su mate.",
+    "img": "https://res.cloudinary.com/dvvtskcux/image/upload/v1729204845/cebate-uno/bombillas/02.webp"
+  },
+  {
+    "id": 16,
+    "productName": "Bombilla Bronce Niquelado con Filtro Desmontable",
+    "material": "bronce",
+    "length": "17 cm",
+    "price": "18000",
+    "description": "Bombilla de bronce niquelado con filtro desmontable para facilitar la limpieza. Ideal para disfrutar de un mate sin residuos.",
+    "img": "https://res.cloudinary.com/dvvtskcux/image/upload/v1729204845/cebate-uno/bombillas/03.png"
+  },
+  {
+    "id": 17,
+    "productName": "Bombilla de Plata con Grabados",
+    "material": "plata",
+    "length": "15 cm",
+    "price": "32000",
+    "description": "Bombilla de plata finamente grabada a mano, una pieza única que combina arte y funcionalidad en cada sorbo.",
+    "img": "https://res.cloudinary.com/dvvtskcux/image/upload/v1729204845/cebate-uno/bombillas/04.jpeg"
+  },
+  {
+    "id": 18,
+    "productName": "Bombilla de Acero Inoxidable y Bronce",
+    "material": "acero",
+    "length": "19 cm",
+    "price": "24000",
+    "description": "Bombilla de acero inoxidable con detalles en bronce, ideal para mates diarios y de alta resistencia.",
+    "img": "https://res.cloudinary.com/dvvtskcux/image/upload/v1729205440/cebate-uno/bombillas/05.jpg"
+  },
+  {
+    "id": 19,
+    "productName": "Bombilla Alpaca Maciza con Pala Ancha",
+    "material": "alpaca",
+    "length": "16.5 cm",
+    "price": "28000",
+    "description": "Bombilla de alpaca maciza con pala ancha, perfecta para cebar mates de yerba gruesa sin que se tape.",
+    "img": "https://res.cloudinary.com/dvvtskcux/image/upload/v1729204845/cebate-uno/bombillas/06.jpeg"
+  },
+  {
+    "id": 20,
+    "productName": "Bombilla de Acero con Boca Dorada",
+    "material": "acero",
+    "length": "17.5 cm",
+    "price": "22000",
+    "description": "Elegante bombilla de acero inoxidable con una boca dorada, diseño sofisticado y funcional para un mate de alta calidad.",
+    "img": "https://res.cloudinary.com/dvvtskcux/image/upload/v1729204845/cebate-uno/bombillas/07.jpeg"
+  },
+  {
+    "id": 21,
+    "productName": "Bombilla de Bronce Torneada Clásica",
+    "material": "bronce",
+    "length": "18 cm",
+    "price": "20000",
+    "description": "Bombilla de bronce torneada a mano, resistente y con un diseño tradicional que asegura durabilidad y estilo.",
+    "img": "https://res.cloudinary.com/dvvtskcux/image/upload/v1729204845/cebate-uno/bombillas/08.webp"
+  },
+  {
+    "id": 22,
+    "productName": "Bombilla de Plata y Oro Grabada",
+    "material": "plata",
+    "length": "15.5 cm",
+    "price": "34000",
+    "description": "Exquisita bombilla de plata con detalles en oro grabada a mano, una opción de lujo para un mate especial.",
+    "img": "https://res.cloudinary.com/dvvtskcux/image/upload/v1729204845/cebate-uno/bombillas/09.webp"
+  },
+  {
+    "id": 23,
+    "productName": "Bombilla de Alpaca con Anillo de Plata",
+    "material": "alpaca",
+    "length": "16 cm",
+    "price": "26000",
+    "description": "Bombilla de alpaca con un elegante anillo de plata en el centro. Combina resistencia y estética en un solo producto.",
+    "img": "https://res.cloudinary.com/dvvtskcux/image/upload/v1729204845/cebate-uno/bombillas/10.jpg"
+  },
+  {
+    "id": 24,
+    "productName": "Bombilla de Acero con Filtro Fino",
+    "material": "acero",
+    "length": "17 cm",
+    "price": "15000",
+    "description": "Bombilla de acero inoxidable con un filtro fino que evita que pasen restos de yerba al sorber. Ideal para mates suaves.",
+    "img": "https://res.cloudinary.com/dvvtskcux/image/upload/v1729204845/cebate-uno/bombillas/11.jpeg"
+  }
 ]

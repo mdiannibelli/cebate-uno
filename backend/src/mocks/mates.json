@@ -105,7 +105,7 @@
     "price": "55000",
     "description": "Este mate de madera ha sido grabado con motivos artísticos, proporcionando una pieza única y decorativa. La madera ha sido tratada para preservar su durabilidad y mejorar su resistencia a la humedad. Ideal para quienes aprecian el trabajo artesanal y los productos naturales.",
     "include_lightbulb": "yes",
-    "img": "",
+    "img": "https://res.cloudinary.com/dvvtskcux/image/upload/v1727918590/cebate-uno/10.jpg",
     "type": "Madera",
     "edition": "Personalizado"
   },
@@ -116,7 +116,7 @@
     "price": "60000",
     "description": "Este mate premium está fabricado en acero inoxidable de alta calidad y recubierto en cuero negro, lo que le proporciona una excelente retención de calor y un diseño moderno y elegante. Perfecto para quienes buscan calidad y durabilidad. Incluye bombilla de acero.",
     "include_lightbulb": "yes",
-    "img": "",
+    "img": "https://res.cloudinary.com/dvvtskcux/image/upload/v1727918590/cebate-uno/11.jpg",
     "type": "Acero",
     "edition": "Premium"
   },
@@ -127,7 +127,7 @@
     "price": "45000",
     "description": "Este mate de calabaza ha sido embellecido con detalles en alpaca, lo que le otorga un aspecto tradicional y elegante. Ideal para quienes aprecian las piezas clásicas con un toque de distinción. La calabaza ha sido tratada para garantizar la máxima durabilidad.",
     "include_lightbulb": "yes",
-    "img": "",
+    "img": "https://res.cloudinary.com/dvvtskcux/image/upload/v1727918590/cebate-uno/12.jpeg",
     "type": "Calabaza",
     "edition": "Premium"
   },
@@ -138,7 +138,7 @@
     "price": "20000",
     "description": "Un mate moderno y minimalista hecho de cerámica blanca, perfecto para quienes buscan un diseño elegante y sencillo. El soporte de acero inoxidable asegura estabilidad, y la superficie de cerámica es fácil de limpiar. Ideal para el uso diario.",
     "include_lightbulb": "no",
-    "img": "",
+    "img": "https://res.cloudinary.com/dvvtskcux/image/upload/v1727918590/cebate-uno/13.jpg",
     "type": "Acero",
     "edition": "Tradicional"
   }
