@@ -16,7 +16,7 @@ const Header = ({ selector, handleSelector }: Props) => {
             <h2 className='text-2xl md:text-4xl text-end uppercase font-regular max-w-[204px] w-full'>Uno</h2>
           </div>
           <div>
-            <img src="../../../public/imgs/logo.png" alt="Cebate Uno Logo" className="w-8 md:w-12" />
+            <img src="/imgs/logo.png" alt="Cebate Uno Logo" className="w-8 md:w-12" />
           </div>
         </a>
         <CartBtn />
