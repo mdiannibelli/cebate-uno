@@ -1,4 +1,4 @@
-import express from 'express'
+import express, { Request, Response } from 'express'
 import cors from 'cors'
 
 import matesRoutes from './routes/mates'
@@ -10,7 +10,7 @@ app.use(cors())
 app.use(express.json()) // middleware => req.body a json
 const $PORT = 3000
 
-app.get('/', (_, res) => {
+app.get('/', (_: Request, res: Response) => {
   res.send('Hello world')
 })
 
