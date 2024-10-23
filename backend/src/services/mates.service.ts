@@ -1,7 +1,7 @@
 // Mocks
 import matesJson from '../mocks/mates.json'
 import { MateType, MateTypeWithoutId } from '../types'
-import { toNewMateEntry } from '../utils/newMateEntry'
+import { toNewMateEntry } from '../utils/create-mate-entry'
 
 let mates: MateType[] = matesJson as MateType[]
 

@@ -1,6 +1,6 @@
 import { Request, Response } from 'express'
 import * as lightbulbService from '../services/bombillas.service'
-import { newBombillaEntry } from '../utils/newBombillaEntry'
+import { newBombillaEntry } from '../utils/create-bombilla-entry'
 
 export const getAllLightbulbs = (_: Request, res: Response): void => {
   const lightbulbs = lightbulbService.getBombillas()

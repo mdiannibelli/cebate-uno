@@ -1,6 +1,6 @@
 import { Request, Response } from 'express'
 import * as mateServices from '../services/mates.service'
-import { toNewMateEntry } from '../utils/newMateEntry'
+import { toNewMateEntry } from '../utils/create-mate-entry'
 
 export const getMates = (_: Request, res: Response): void => {
   const mates = mateServices.getMates()
