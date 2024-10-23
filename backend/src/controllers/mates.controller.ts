@@ -1,23 +1,21 @@
-import express from 'express'
-import * as mateServices from '../services/matesServices'
+import { Request, Response } from 'express'
+import * as mateServices from '../services/mates.service'
 import { toNewMateEntry } from '../utils/newMateEntry'
 
-const router = express.Router()
-
-router.get('/', (_, res) => {
+export const getMates = (_: Request, res: Response): void => {
   const mates = mateServices.getMates()
   res.status(200).send(mates)
-})
+}
 
-router.get('/:id', (req, res) => {
+export const getMateById = (req: Request, res: Response): Response<any, Record<string, any>> => {
   const { id } = req.params
   const mateById = mateServices.getMateById(id)
   return (mateById != null)
     ? res.send(mateById)
     : res.sendStatus(404).send(`Mate with id ${id} not found`)
-})
+}
 
-router.post('/', (req, res) => {
+export const addNewMate = (req: Request, res: Response): void => {
   try {
     // const { productName, color, price, description, includeLightbulb, img, type, edition } = req.body
     const newMate = toNewMateEntry(req.body)
@@ -38,9 +36,9 @@ router.post('/', (req, res) => {
   } catch (error) {
     res.status(400).send(error)
   }
-})
+}
 
-router.put('/:id', (req, res) => {
+export const updateMate = (req: Request, res: Response): void => {
   const { id } = req.params
   try {
     mateServices.updateMate({ newMate: req.body, id })
@@ -48,14 +46,14 @@ router.put('/:id', (req, res) => {
   } catch (error) {
     res.status(400).send(error)
   }
-})
+}
 
-router.delete('/', (_, res) => {
+export const deleteAllMates = (_: Request, res: Response): void => {
   mateServices.deleteAllMates()
   res.status(204).send('Mates deleted')
-})
+}
 
-router.delete('/:id', (req, res) => {
+export const deleteMateById = (req: Request, res: Response): void => {
   const { id } = req.params
   try {
     mateServices.deleteMateById(id)
@@ -63,6 +61,4 @@ router.delete('/:id', (req, res) => {
   } catch (error) {
     res.status(400).send(`Mate ${id} can not be deleted or doesn't found`)
   }
-})
-
-export default router
+}

@@ -1,8 +1,8 @@
 import express, { Request, Response } from 'express'
 import cors from 'cors'
 
-import matesRoutes from './routes/mates'
-import lightbulbRoutes from './routes/bombillas'
+import matesRoutes from './routes/mates.routes'
+import lightbulbRoutes from './routes/bombillas.routes'
 
 const app = express()
 

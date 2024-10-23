@@ -1,23 +1,23 @@
-import express from 'express'
+import { Request, Response } from 'express'
+import * as lightbulbService from '../services/bombillas.service'
 import { newBombillaEntry } from '../utils/newBombillaEntry'
-import * as lightbulbService from '../services/bombillasServices'
 
-const router = express.Router()
-
-router.get('/', (_, res) => {
+export const getAllLightbulbs = (_: Request, res: Response): void => {
   const lightbulbs = lightbulbService.getBombillas()
   res.send(lightbulbs)
-})
+}
 
-router.get('/:id', (req, res) => {
+export const getLightbulbById = (req: Request, res: Response): void => {
   const { id } = req.params
   const lightBulbById = lightbulbService.getBombillaById(id)
-  ;(lightBulbById != null)
-    ? res.send(lightBulbById)
-    : res.sendStatus(400)
-})
+  if (lightBulbById != null) {
+    res.send(lightBulbById)
+  } else {
+    res.sendStatus(400)
+  }
+}
 
-router.post('/', (req, res) => {
+export const createLightbulb = (req: Request, res: Response): void => {
   try {
     const lightBulb = newBombillaEntry(req.body)
 
@@ -26,6 +26,4 @@ router.post('/', (req, res) => {
   } catch (error) {
     res.status(400).send(error)
   }
-})
-
-export default router
+}
