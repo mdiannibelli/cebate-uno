@@ -38,7 +38,7 @@ export const FiltersProvider = ({ children }: { children: React.ReactNode }) => 
         material: 'all',
         materialLightbulb: 'all',
         maxPrice: 1000000,
-        minPrice: -Infinity,
+        minPrice: 0,
         defaultFilters: {
             allColors: [],
             allMaterials: [],
